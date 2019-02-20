@@ -6,9 +6,13 @@ const Img = props =>
 			<img src={props.url} alt="beautiful" />
 		</a>
 		<p>
+		
+		
 			Photo by
 			<a href={props.user}>{props.name}</a>
 			<a href={props.link}> See on Unsplash</a>
+
+		    
 		</p>
 	</li>;
 
