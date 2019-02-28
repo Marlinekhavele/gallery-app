@@ -53,9 +53,7 @@ button {
   z-index: 2000;
 }
 
-/* ================================= 
-  Page Components
-==================================== */
+
 
 .main-title {
   font-size: 1.4em;
@@ -121,8 +119,17 @@ button {
   margin: auto;
 }
 
+.main1-header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80px;
+  z-index: 1000;
+  margin-top: -120px;
+}
+
+
 .main-header {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -180,6 +187,8 @@ button {
     font-size: 0;
   }
 }
+
+
 
 @media (min-width: 769px) {
   body {

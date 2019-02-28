@@ -27,7 +27,7 @@ export default class SearchForm extends Component {
 					placeholder="Search..."
 				/>
 				<button type="submit" id="submit" className="search-button">
-					<i className="material-icons icn-search">search</i>
+					<i className="material-icons icn-search">enter</i>
 				</button>
 			</form>
 		);

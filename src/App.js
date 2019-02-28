@@ -4,6 +4,8 @@ import axios from 'axios';
 import './App.css';
 import ImgList from './Components/ImgList';
 import SearchForm from './Components/SearchForm';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 
 export default class App extends Component {
@@ -35,9 +37,25 @@ export default class App extends Component {
 	render() {
 		return (
 			<div>
+				<>
+
+  <Navbar className="main1-header" bg="dark" variant="dark">
+    <Navbar.Brand href="#home">
+      <img
+        alt=""
+        src="/logo.svg"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+      />
+      {' Shujaaz'}
+    </Navbar.Brand>
+  </Navbar>
+</>;
+				
 				<div className="main-header">
 					<div className="inner">
-						<h1 className="main-title">Shujaaz</h1>
+						{/* <h1 className="main-title">Shujaaz</h1> */}
 						<SearchForm onSearch={this.performSearch} />
 					</div>
 				</div>
